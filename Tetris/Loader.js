@@ -2,7 +2,7 @@ const files = [
     {
         Libraries: ["phaser.min"],
         Game: ["Scene", "Input", "Game", "PieceConstants"],
-        Classes: ["updateList",  "Text", "Board", "Bag", "PossesedPiece", "GhostPiece", "FunnyBoard"]
+        Classes: ["UpdateList",  "Text", "Board", "Bag", "PossesedPiece", "GhostPiece", "FunnyBoard"]
     },
     "Start"
 ];
