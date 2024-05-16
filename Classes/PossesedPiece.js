@@ -226,9 +226,9 @@ class PossesedPiece{
         let y = this.y;
         
         var a = (this.type == "I"? IwallKickTable : wallKickTable)[pre];
-        var b = wallKickTable[this.r];
+        var b = (this.type == "I"? IwallKickTable : wallKickTable)[this.r];
 
-        for(var i = 0; i < 4; i++){
+        for(var i = 1; i < 5; i++){
             this.x = x + a[i][0] - b[i][0];
             this.y = y + a[i][1] - b[i][1];
 
